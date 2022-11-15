@@ -25,22 +25,21 @@ No Jornada DevOps com AWS vamos desenvolver habilidades para trabalhar com prove
 <img align="center" alt="GitHub" height="70" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
 <img align="center" alt="AWS" height="120" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
 <img align="center" alt="AWS" height="120" width="70"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" />
-<img align="center" alt="AWS" height="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain-wordmark.svg" />
 <img align="center" alt="AWS" height="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain-wordmark.svg" />
 
-## Modulos que serão apresentados:
+- 
+  ## Desafio:
 
-- **1 - Prepare-se para a jornada(Onboarding)**
 
-- **2 - Conhecendo o Sistema Operacional Linux**.
+```
+Descrição
+Neste projeto será utilizado o Docker Compose para executar uma aplicação HTML em um Container Apache.
 
-- **3 - Desmistificando o Docker**
+PASSO A PASSO:
 
-- **4 - Kubernetes do Zero a Produção**
-
-- **5 - AWS Foundations**
-
-  
+1. Criar um arquivo YML com as definições de um servidor Apache (httpd); 
+2. Especificar no arquivo YML o local onde os arquivos da aplicação web estarão.
+```
 
 
 
