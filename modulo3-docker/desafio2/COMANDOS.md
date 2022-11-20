@@ -16,6 +16,8 @@ No Jornada DevOps com AWS vamos desenvolver habilidades para trabalhar com prove
 
 [Download do git](https://git-scm.com/downloads)
 
+[Download VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+
 [Download vagrant](https://developer.hashicorp.com/vagrant/downloads)
 
 
@@ -26,9 +28,10 @@ No Jornada DevOps com AWS vamos desenvolver habilidades para trabalhar com prove
 <img align="center" alt="git" height="70" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"/>
 <img align="center" alt="GitHub" height="70" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
 <img align="center" alt="AWS" height="120" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
-<img align="center" alt="AWS" height="120" width="70"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" />
-<img align="center" alt="AWS" height="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain-wordmark.svg" />
-<img  align="center" alt="AWS" height="120" width="110" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vagrant/vagrant-original-wordmark.svg" />
+<img align="center" alt="Docker" height="120" width="70"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" />
+<img align="center" alt="Ubuntu" height="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain-wordmark.svg" />
+<img  align="center" alt="Vagrant" height="120" width="110" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vagrant/vagrant-original-wordmark.svg" />
+<img  align="center" alt="Virtual Box" height="150" width="130" src="https://www.vectorlogo.zone/logos/virtualbox/virtualbox-ar21.svg" />
 
 ​          
 
@@ -52,4 +55,38 @@ PASSO A PASSO:
 ```
 
 
+
+- *Comandos*
+
+```
+# Criando arquivo Vagrantfile para geração de infrastrutura local VM
+vagrant init ubuntu/focal64 
+```
+
+```
+#Executando o arquivo Vagrantfile e gerando as maquinas virtuais
+vagrant up
+```
+
+```
+#
+vagrant ssh master
+```
+
+```
+sudo su
+```
+
+```
+docker node ls
+```
+
+```
+# Destruindo VMs criadas
+vagrant destroy -f
+```
+
+```
+
+```
 
